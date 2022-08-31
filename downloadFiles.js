@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 
-const baseUrl = 'https://6c78-lxx-1gg4sx24e0ca54d5-1305723620.tcb.qcloud.la/'
+const baseUrl = 'https://6c78-lxx-1gg4sx24e0ca54d5-732631.tcb.qcloud.la/'
 
 
 // 获取全部文件路径
@@ -13,12 +13,12 @@ const getAllFiles = () => {
     cloudPaths.push(item.cloudPath)
   })
   
-  const blog = require('./database/blog')
-  blog.forEach(item => {
-    item.imgList.forEach(img => {
-      cloudPaths.push(img.cloudPath)
-    })
-  })
+  // const blog = require('./database/blog')
+  // blog.forEach(item => {
+  //   item.imgList.forEach(img => {
+  //     cloudPaths.push(img.cloudPath)
+  //   })
+  // })
   return cloudPaths
 }
 
