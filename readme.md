@@ -49,3 +49,7 @@ node fixJSON.js
 
 成功
 ![img_9.png](img_9.png)
+
+
+### API迁移
+[在微信小程序（游戏）与 QQ 小程序（游戏）中使用 LeanCloud](https://leancloud.cn/docs/weapp.html)
